@@ -40,6 +40,9 @@ public class MyArray {
         }
         count--;
     }
+    public int size(){
+        return count-1;
+    }
 
 
     public int indexOf(int item){
