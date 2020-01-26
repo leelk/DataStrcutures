@@ -1,5 +1,6 @@
 import Array.MyArray;
 import LinkedList.LinkedList;
+import Queue.Queue;
 import Stack.Stack;
 
 public class Main {
@@ -30,7 +31,7 @@ public class Main {
 
         list.show();*/
 
-
+/*
         Stack stack = new Stack();
         stack.push(25);
         stack.push(20);
@@ -38,8 +39,20 @@ public class Main {
         stack.push(140);
         stack.pop();
         stack.push(140);
+        stack.print();*/
 
-        stack.print();
+
+        Queue queue = new Queue();
+        queue.enque(25);
+        queue.enque(30);
+        queue.enque(35);
+        queue.deQueue();
+        queue.deQueue();
+        queue.deQueue();
+
+     //   25 30 35 0 0
+//        35 30 35 0 0
+        queue.print();
 
     }
 }
