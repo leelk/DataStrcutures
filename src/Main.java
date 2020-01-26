@@ -1,5 +1,6 @@
 import Array.MyArray;
 import LinkedList.LinkedList;
+import Stack.Stack;
 
 public class Main {
 
@@ -18,7 +19,7 @@ public class Main {
         myArray.print();*/
 
 
-        LinkedList list = new LinkedList();
+       /* LinkedList list = new LinkedList();
         list.insert(18);
         list.insert(54);
         list.insert(52);
@@ -27,8 +28,18 @@ public class Main {
         list.insertAt(2,25);
         list.deleteAt(2);
 
-        list.show();
+        list.show();*/
 
+
+        Stack stack = new Stack();
+        stack.push(25);
+        stack.push(20);
+        stack.push(410);
+        stack.push(140);
+        stack.pop();
+        stack.push(140);
+
+        stack.print();
 
     }
 }
