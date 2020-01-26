@@ -23,6 +23,9 @@ public class Main {
         list.insert(54);
         list.insert(52);
         list.insert(15);
+        list.insertAtStrar(22);
+        list.insertAt(2,25);
+        list.deleteAt(2);
 
         list.show();
 
